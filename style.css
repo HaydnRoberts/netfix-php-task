@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: 'Arial Black', sans-serif;
+    background-color: #1a1a1a;
+    color: #E50914;
+    text-align: center;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: #E50914; /* Orange-red color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Form Styles */
+form {
+    background-color: #353535;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+label {
+    font-weight: bold;
+    color: #E50914;
+}
+
+/* Form Input Styles */
+select, input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #E50914;
+    background-color: #1a1a1a;
+    color: #E50914;
+    border-radius: 6px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    background-color: #E50914;
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff4500; /* Lighter orange-red color on hover */
+}
+
+/* Output Box Styles */
+.output-box {
+    background-color: #353535;
+    border: 2px solid #E50914;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.output-box h2 {
+    color: #E50914;
+    font-size: 32px;
+    margin: 0 0 20px;
+}
+
+.output-box p {
+    font-size: 18px;
+    margin: 15px 0;
+    text-transform: uppercase;
+}
+
+.output-box p strong {
+    font-weight: bold;
+    color: #ff4500; /* Orange-red color for strong text */
+}
